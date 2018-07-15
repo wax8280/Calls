@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/detail_menu_detail"
+        android:orderInCategory="1"
+        android:title="详细资料"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/detail_menu_is_call"
+        android:orderInCategory="1"
+        android:title="标记为已催收"
+        app:showAsAction="never" />
+</menu>

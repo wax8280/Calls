@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/steelblue</item>
+        <item name="colorPrimaryDark">@color/royalblue</item>
+        <item name="colorAccent">@color/teal</item>
+        <item name="android:windowTranslucentStatus">true</item>    <!--状态栏为透明,如果设置为false，则没有黑色条盖住，见下图对比-->
+        <item name="android:windowTranslucentNavigation">true</item> <!--导航栏为透明-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="autoCompleteTextViewStyle">@style/AppAutoCompleteTextView</item>
+    </style>
+    <style name="text_header">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/lightgrey</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/lightgrey</item>
+    </style>
+
+    <style name="detail_text">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="common_horizontal_division_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#a4a4a4</item>
+    </style>
+
+    <style name="common_vertical_division_line_style">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#dddddd</item>
+    </style>
+
+    <style name="Widget.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="defaultQueryHint">请输入关键字</item>
+    </style>
+    <!--修改searchView字体颜色、大小-->
+    <style name="AppAutoCompleteTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:searchIcon">@drawable/ic_search_white_24dp</item>
+        <item name="android:textAppearance">@style/AutoCompleteTextAppearance</item>
+    </style>
+
+    <style name="AutoCompleteTextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:textColorHint">@color/lightgrey</item>
+        <item name="android:textColorHighlight">@color/lightgrey</item>
+        <item name="android:color">@color/lightgrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

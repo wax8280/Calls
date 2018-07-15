@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_spinner">
+        <item>按户号</item>
+        <item>按户名</item>
+        <item>按欠费</item>
+    </string-array>
+
+</resources>

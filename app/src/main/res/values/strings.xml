@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">电费催收</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_done_call">已催收</string>
+</resources>

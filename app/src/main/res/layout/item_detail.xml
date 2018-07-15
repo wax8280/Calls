@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/line_h"
+            android:orientation="vertical"
+            android:showDividers="beginning|middle|end"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:divider="@drawable/line_h"
+                android:orientation="horizontal"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="用户编号" />
+
+                <TextView
+                    android:id="@+id/table_yonghubianhao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="用户名称" />
+
+                <TextView
+                    android:id="@+id/table_yonghumingcheng"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="联系方式" />
+
+                <TextView
+                    android:id="@+id/table_lianxifangshi"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="手机号码" />
+
+                <TextView
+                    android:id="@+id/table_shoujihaoma"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="电表号" />
+
+                <TextView
+                    android:id="@+id/table_dianbiaohao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="应收电费" />
+
+                <TextView
+                    android:id="@+id/table_yingshoudianfei"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="应收电量" />
+
+                <TextView
+                    android:id="@+id/table_yingshoudianliang"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="总欠费" />
+
+                <TextView
+                    android:id="@+id/table_zongqianfei"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="总电费" />
+
+                <TextView
+                    android:id="@+id/table_zongdianfei"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠违约金" />
+
+                <TextView
+                    android:id="@+id/table_qianweiyuejin"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠其他" />
+
+                <TextView
+                    android:id="@+id/table_qianqita"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠附加费" />
+
+                <TextView
+                    android:id="@+id/table_qianfujiafei"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠重大水利" />
+
+                <TextView
+                    android:id="@+id/table_qianzhongdashuili"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠还贷基金" />
+
+                <TextView
+                    android:id="@+id/table_qianhuandaijijin"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠地方水库移民" />
+
+                <TextView
+                    android:id="@+id/table_qiandifangshuikuyimin"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠可再生能源" />
+
+                <TextView
+                    android:id="@+id/table_qiankezaishengnengyuan"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="欠城市附加" />
+
+                <TextView
+                    android:id="@+id/table_qianchengshifujia"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="电费年月" />
+
+                <TextView
+                    android:id="@+id/table_dianfeinianyue"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="结算户号" />
+
+                <TextView
+                    android:id="@+id/table_jiesuanhuhao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="结算户名" />
+
+                <TextView
+                    android:id="@+id/table_jiesuanhuming"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="抄表区段" />
+
+                <TextView
+                    android:id="@+id/table_chaobiaoquduan"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="计量点抄表顺序号" />
+
+                <TextView
+                    android:id="@+id/table_jiliangdianchaobiaoshunxuhao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="催收等级" />
+
+                <TextView
+                    android:id="@+id/table_cuishoudengji"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="资产编号" />
+
+                <TextView
+                    android:id="@+id/table_zichanbianhao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="原抄表号" />
+
+                <TextView
+                    android:id="@+id/table_yuanchaobiaohao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="抄表员" />
+
+                <TextView
+                    android:id="@+id/table_chaobiaoyuan"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="催费员" />
+
+                <TextView
+                    android:id="@+id/table_cuifeiyuan"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="缴费方式" />
+
+                <TextView
+                    android:id="@+id/table_jiaofeifangshi"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="用电类别" />
+
+                <TextView
+                    android:id="@+id/table_yongdianleibie"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="用电地址" />
+
+                <TextView
+                    android:id="@+id/table_yongdiandizhi"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="账户状态" />
+
+                <TextView
+                    android:id="@+id/table_zhangzhuantai"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="锁定类型" />
+
+                <TextView
+                    android:id="@+id/table_suodingleixing"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="联网银行" />
+
+                <TextView
+                    android:id="@+id/table_lianwangyinhang"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="银行账号" />
+
+                <TextView
+                    android:id="@+id/table_yinhangzhanghao"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:divider="@drawable/line_h"
+                android:showDividers="beginning|middle|end">
+
+                <TextView
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="扣款结果" />
+
+                <TextView
+                    android:id="@+id/table_koukuanjieguo"
+                    style="@style/detail_text"
+                    android:layout_width="1dp"
+                    android:gravity="center"
+                    android:padding="8dp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
